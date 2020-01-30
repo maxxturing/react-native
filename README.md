@@ -9,9 +9,7 @@
 - Works similar to React for web
   - Create an app by building a component tree
   - React Native takes components and compiles them into native code and widgets that work on Android and iOS
-- Get set up
-  - Install node https://nodejs.org/en/download/
-  - Install android studio https://developer.android.com/studio
+- Install node https://nodejs.org/en/download/
 - Command Line Interface
   - Expo CLI
     - A wrapper that is better for beginners, allows for easy access to certain features
@@ -42,7 +40,24 @@
   npm start
   ```
 - Download expo client on phone and use QR code to preview app https://play.google.com/store/apps/details?id=host.exp.exponent
--
+- Install Android Studio https://developer.android.com/studio
+  - Click Configure and select AVD Manager
+  - Select your phone
+  - Download Pie (API level 28)
+  - Click Next
+  - Click Finish
+  - Click Play button icon
+- Project files overview
+  - .expo - expo configuration/settings
+  - .expo-shared - expo configuration/settings
+  - assets - images
+  - node_modules - dependencies
+  - .gitignore - which files not to track for version control
+  - App.js - kickstarts the app
+  - app.json - information about project
+  - babel.config.js - configuring how babel (compiler) works
+  - package-lock.json - track dependencies
+  - package.json - track dependencies
 
 ### Other resources
 
