@@ -221,7 +221,10 @@
 
     ```
 
-* navigation
+* Navigation
+  - Difference types of Stack
+    - Stack navigation
+    -
   - https://reactnavigation.org/
     - https://reactnavigation.org/docs/en/getting-started.html
       - npm install react-navigation
@@ -242,4 +245,29 @@
     const pressHandler = () => {
       navigation.goBack();
     };
+    ```
+  - navigationOptions
+    - ```sh
+      const HomeStack = createStackNavigator(screens, {
+        defaultNavigationOptions: {
+          headerTintColor: "white",
+          headerStyle: {
+            backgroundColor: "#1E67FC",
+            height: 150
+          }
+        }
+      });
+      ```
+  - Drawer navigation
+    - npm install react-navigation-drawer
+* Cards
+* Modals
+* Formik
+  - npm install formik
+  - npm install yup
+* yup - form validation / errors
+* Dev tools
+  - https://www.npmjs.com/package/react-devtools
+  - ```sh
+    REACT_DEBUGGER="unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?port=19001' ||" npm start
     ```
